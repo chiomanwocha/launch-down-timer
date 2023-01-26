@@ -1,10 +1,16 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-image: url(../documentation//images//bg-stars.svg), url('../documentation//images//pattern-hills.svg'), linear-gradient(to bottom, #1d1d20, #201f27, #24212d, #292333, #2f2439);
+  background-position:top, bottom, top;
+  background-repeat: repeat, no-repeat, no-repeat;
+  min-height: 100vh;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  color: #1e1f29;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,14 +20,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  /* background-color: #282c34; */
+  /* min-height: 100vh; */
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; */
+  /* color: white; */
 }
 
 .App-link {

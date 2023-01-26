@@ -1,0 +1,79 @@
+*{
+    color: white
+}
+h1{
+    padding: 13vh 0 15vh 0;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'Alexandria', sans-serif;
+    font-size: calc(10px + 2vmin);
+    margin: 0;
+    line-break: auto;
+}
+
+p{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: hsla(0, 0%, 100%, .5);
+    min-width: 150px;
+}
+
+.figures{
+    font-size: calc(90px + 2vmin);
+    font-weight: bold;
+    margin: 0;
+    color: hsl(345, 95%, 68%);
+    padding: 10px 5px;
+    border-radius: 8px;
+    background-color: hsl(236, 21%, 26%);
+    box-shadow: 0 6px 4px  hsl(234, 17%, 12%);
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    transition: .5s;
+}
+
+.container{
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    position: absolute;
+    bottom: 10vh;
+    text-align: center;
+}
+footer div {
+    display: flex;
+    gap: 20px;
+    width: 100vw;
+    margin: 0 auto;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: none
+}
+footer p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+footer a{
+    text-decoration: none;
+}
+footer p:hover{
+    transition: .3s;
+    color: hsl(0, 0%, 70%);
+}
